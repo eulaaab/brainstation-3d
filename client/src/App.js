@@ -19,6 +19,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h2>Brainstation 3D Starter</h2>
+        <h3>TEAM 3</h3>
       </header>
     </div>
   );
