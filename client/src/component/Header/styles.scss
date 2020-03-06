@@ -157,11 +157,11 @@ text-align: center;
 .card {
   margin-top: 45px;
   width: 25%;
-  height: 50vh;
+  height: 40vh;
   background-color: white;
   padding: 15px;
   border-radius: 5px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  //box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 h2{
@@ -204,6 +204,46 @@ ul {
 }
 
 .hero-table {
+ 
   align-self: center;
+  display: flex;
  justify-content: center;
+ margin-bottom: 60px;
+
+}
+
+.parent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.donut {
+  animation: App-logo-spin infinite 3s linear;
+  position: relative;
+}
+.posi {
+  position: absolute;
+  top: 45px;
+  left: 158px;
+ 
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text{
+  margin-top: 60px;
+}
+
+.money {
+  margin-left: 50px;
+}
+
+.middle-text{
+  margin-top: 30px;
 }

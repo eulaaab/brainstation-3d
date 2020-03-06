@@ -3,7 +3,8 @@ import "./styles.scss";
 import Logo from "../../c9b8d7bc-f2d2-4e76-a7be-a9a182013953_200x200.png";
 import undergrad from "../../woman-sharing-her-presentation-with-her-colleagues-3153198.jpg";
 import { Link } from 'react-router-dom';
-//import donut from "";
+import donut from "../../Oval2.png";
+import money from "../../Money Icon@3x.png"
 
 class Header extends Component {
   constructor() {
@@ -80,14 +81,49 @@ class Header extends Component {
         </header>
         <section className="hero">
           <div className="hero__left">
-            <h2 className="hero__title">IS ICT FOR YOU</h2>
+            <h2 className="hero__title">KICKSTART YOUR NEW CAREER</h2>
             <p className="hero__slogan">
-              x% of businesses are hiring ICT professionals. Take the quiz to see if IT is for you.
+              Find the right tech for you
             </p>
-            <button class="hero-container__button" onclick="window.location.href = 'pages/registration.html'; "  >TAKE THE QUIZ NOW</button>
+            <button class="hero-container__button" onclick="window.location.href = 'pages/registration.html'; "  >LEARN MORE</button>
           </div>
           <div className="hero__right hero__image">
             <img src={undergrad} className="undergrad" />
+          </div>
+        </section>
+
+
+        <section className="flex__container">
+          <div className="container">
+            <div className="card card--hover">
+              <div className="parent">
+                <img className="navbar__img donut" src={donut} alt="icon of user" />
+                <h2 className="posi">55%</h2>
+
+              </div>
+              <h3 className="text">OF BUSINESSES PROVIDE TRAINING IN TECH</h3>
+            </div>
+            <div className="card card--hover">
+              <img className="navbar__img money" src={money} alt="money" />
+              <ul>
+
+                <h2>$11,700</h2>
+                <h3 className="middle-text">AVERAGE AMOUNT OF BUSINESSES SPEND ON DIGITAL TRAINING PER EMPLOYEE</h3>
+
+              </ul>
+            </div>
+
+
+            <div className="card card--hover">
+              <div className="parent">
+
+                <img className="navbar__img donut" src={donut} alt="icon of user" />
+                <h2 className="posi">86%</h2>
+
+                <h4></h4>
+              </div>
+              <h3 className="text">OF BUSINESSES PROVIDE YOU WITH FREE DEVICES</h3>
+            </div>
           </div>
         </section>
         <section className="hero-table">
@@ -99,33 +135,6 @@ class Header extends Component {
           ></iframe>
 
         </section>
-        {
-
-          /*
-    
-            <section className="flex__container">
-              <div className="container">
-                <div className="card card--hover">
-                  <h2>$11,700</h2>
-                  <h3>Average amount businesses spend on digital training per employee</h3>
-                </div>
-                <div className="card card--hover">
-                  <ul>
-                    
-                      // <img className="navbar__img donut" src="" alt="icon of user" />
-                    }
-    
-    
-                  </ul>
-                </div>
-                <div className="card card--hover">
-                  <h1>75%</h1>
-    
-                </div>
-              </div>
-            </section>
-            */
-        }
       </>
     );
   }
