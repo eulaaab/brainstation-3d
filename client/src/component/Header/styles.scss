@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+/* set the navbar of the page  */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  height: 82px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.navbar__img * {
+  display: block;
+  color: #2d3982;
+  margin-left: 63px;
+  width: 104px;
+  height: 83px;
+  object-fit: contain;
+}
+.navbar__links * {
+  display: inline-block;
+  color: gray;
+  padding: 34px 30px;
+  font-weight: 400;
+  margin-right: 68px;
+}
+/* Underline the currently active page */
+.navbar__links--active {
+  border-bottom: 2px solid #e37889;
+  padding-bottom: 6px;
+}
+/* change the color of menu item in navbar when element is hovered */
+.navbar__links--hover:hover {
+  color: black;
+  font-weight: 450;
+}
+.navbar__list__item--active {
+  padding-bottom: 6px;
+  box-sizing: border-box;
+  opacity: 1;
+}
+.hero {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  height: 500px;
+  font-family: "Comic Sans MS";
+}
+/* HERO - LEFT SIDE */
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  padding-left: 67px;
+  align-self: center;
+}
+.hero__title {
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+.hero__slogan {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+/* HERO - GET STARTED BUTTON */
+.hero__button {
+  width: 180px;
+  height: 45px;
+  background-color: #5969d0;
+  border-radius: 25px;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: auto;
+}
+.hero__link,
+.hero__link:link,
+.hero__link:visited {
+  font-size: large;
+  color: white;
+  padding: auto;
+  text-decoration: none;
+}
+.hero__link:hover {
+  color: black;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+/* HERO - RIGHT SIDE */
+.hero__right {
+  width: 40%;
+  height: 70%;
+  margin: auto;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__image {
+  background-size: cover;
+}
+.images {
+  display: flex;
+  height: 200px;
+}
+.images-left,
+.images-middle,
+.images-right {
+  background-color: blue;
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+}
+.undergrad {
+  width: 100%;
+  border-radius: 20.5px;
+  box-shadow: 0.5px 1.5px 2px 0 rgba(68, 56, 32, 0.25);
+}
+.hero-container__button {
+  width: 14.25rem;
+  height: 3.44rem;
+  border: none;
+  font-size: 1.31rem;
+  margin-top: 10px;
+  border-radius: 25px;
+  color: #ffffff;
+  width: 300.5px;
+  height: 56px;
+  border-radius: 20.5px;
+  box-shadow: 0.5px 1.5px 2px 0 rgba(68, 56, 32, 0.25);
+  background-color: #f4b25c;
+}
+.hero-container__button:hover{
+  box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+}
+h1 {
+  font-size: 5rem;
+text-align: center;
+
+}
+/* Set the container which have 3 Itinerary card */
+.container {
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Set each of the Itinerary card */
+.card {
+  margin-top: 45px;
+  width: 25%;
+  height: 50vh;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+  text-align: center;
+  font-size: 3rem;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+/* remove the padding of ul element so the list can be centered properly */
+ul {
+  padding: 0;
+}
+.card li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+}
+/* Set border and box shadow when mouse is on any of cards */
+.card--hover:hover {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.2);
+}
+
+.donut {
+  animation: App-logo-spin infinite 10s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-table {
+  align-self: center;
+ justify-content: center;
+}

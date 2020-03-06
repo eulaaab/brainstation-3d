@@ -1,26 +1,22 @@
 // import the base SCSS mixins, variables etc for use in all your components
 @import './styles/utils/base';
 
+
+
 // TODO: replace the following styles once you start!
-.App {
-  text-align: center;
+.header{
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;;
 }
 
-.App-logo {
-  height: 40vmin;
+.logo{
+  height:200px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.hero__title{
+  font-size: 4rem;
 }
